@@ -1,12 +1,18 @@
-import java.util.Scanner;
+// public class hw2{
 
-public class hw1{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+//     public static void main(String[] args){
 
-        int num = sc.nextInt();
+
+//         int[] array = new int[3];
+//         int num;
         
-        for (int i = 1; i < 10; i++) {
-        	System.out.printf("%d * %d = %d\n", num, i, num*i);
-        }
-}
+//         for(int i = 0; i < 3; i++){
+//             num = (int)Math.floor(Math.random() * 9) + 2;
+//             num += array[i];
+//         }
+
+//         for(int i = 0; i < 3; i++) {
+//             System.out.println(array[i]);
+//         }
+//     }
+// }

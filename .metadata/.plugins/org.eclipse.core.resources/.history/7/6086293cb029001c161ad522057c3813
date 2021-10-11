@@ -1,0 +1,16 @@
+public class hw2{
+
+    int[] array;
+    array = new int[3];
+
+    for(int i = 0; i < array.length; i++){
+        int num = (int)Math.floor(Math.random() * 9) + 2;
+        array[i] = num;
+    }
+
+    public static void main(String[] args){
+        for(int i = 0; i < 3; i++) {
+            System.out.println(array[i]);
+        }
+    }
+}
