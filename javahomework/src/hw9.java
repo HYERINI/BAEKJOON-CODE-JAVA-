@@ -14,5 +14,11 @@ public class hw9 {
                 System.out.println(s);
             }
         }
+
+        for (String s : arr) {
+            if (s.compareTo("Seoul") == 0) {
+                System.out.println(s);
+            }
+        }
     }
 }
